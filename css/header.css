@@ -1,3 +1,14 @@
+
+header {
+    display: flex;
+        align-items: center;
+        border-bottom: 1px solid #e7e9fc;
+        width: 1440px;
+        height: 72px;
+        padding: 0 72px;
+        box-sizing: border-box;
+}
+
 li {
     text-decoration: none;
     list-style: none;
@@ -24,6 +35,9 @@ a {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 156px;
+    margin-right: 156px;
+    
 }
 
 .logo span {
@@ -37,6 +51,11 @@ a {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.nav {
+    display: flex;
+    gap: 40px;
+    margin-right: 347px;
+}
 
 .nav a:hover {
     color: #404bbf;
@@ -49,7 +68,10 @@ a {
 .nav a:focus {
     color: #404bbf;
 }
-
+.contact-list {
+    display: flex;
+    gap: 40px;
+}
 .contact-list a:hover,
 .contact-list a:focus {
     color: #404bbf;
@@ -57,6 +79,8 @@ a {
 
 address {
     font-style: normal;
+     margin-left: auto;
+       
 }
 
 address a:hover,
