@@ -1,0 +1,38 @@
+.hero-btn {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-btn:hover {
+    background-color: #404BBF;
+}
+
+.hero-btn:hover:focus {
+    background-color: #404BBF;
+}
+
+.hero {
+    background-color: #2E2F42;
+}

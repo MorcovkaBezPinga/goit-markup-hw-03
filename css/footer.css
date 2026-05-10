@@ -1,0 +1,21 @@
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer a span {
+    color: #f4f4fd
+}
+
+.footer p {
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+    line-height: 1.33;
+}
