@@ -1,5 +1,8 @@
 .team {
     background-color: #F4F4FD;
+    padding: 120px 0px;
+        width: 100%;
+        height: 732px;
 }
 
 .team .team-title {
@@ -12,6 +15,9 @@
 
 .team-card {
     background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background: var(--white);
 }
 
 .team-name {
@@ -29,4 +35,13 @@
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+}
+.team-list {
+display: flex;
+gap: 24px;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+list-style: none;
 }

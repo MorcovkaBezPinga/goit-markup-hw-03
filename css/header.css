@@ -5,8 +5,10 @@ header {
         border-bottom: 1px solid #e7e9fc;
         width: 1440px;
         height: 72px;
-        padding: 0 72px;
+        padding: 0 156px;
         box-sizing: border-box;
+        gap: 76px;
+        
 }
 
 li {
@@ -27,16 +29,13 @@ a {
 
 .logo {
     text-decoration: none;
-    color: #4D5AE5;
-    line-height: 1.5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-right: 156px;
-    margin-right: 156px;
+        color: #4D5AE5;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-right: 76px;
     
 }
 
@@ -54,7 +53,6 @@ a {
 .nav {
     display: flex;
     gap: 40px;
-    margin-right: 347px;
 }
 
 .nav a:hover {
@@ -71,6 +69,8 @@ a {
 .contact-list {
     display: flex;
     gap: 40px;
+    font-style: normal;
+    margin-left: auto;
 }
 .contact-list a:hover,
 .contact-list a:focus {
