@@ -1,14 +1,17 @@
 
 header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+header .container {
     display: flex;
-        align-items: center;
-        border-bottom: 1px solid #e7e9fc;
-        width: 1440px;
-        height: 72px;
-        padding: 0 156px;
-        box-sizing: border-box;
-        gap: 76px;
-        
+    align-items: center;
+    height: 72px;
+}
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 li {
@@ -44,9 +47,12 @@ a {
 }
 
 .nav a {
+    display: flex;
+    align-items: center;
+    height: 72px;
+
     color: #2E2F42;
     font-weight: 500;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
