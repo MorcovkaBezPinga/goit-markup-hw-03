@@ -1,9 +1,9 @@
 
-header {
+.page-header {
     border-bottom: 1px solid #e7e9fc;
 }
 
-header .container {
+.page-header .container {
     display: flex;
     align-items: center;
     height: 72px;
@@ -47,12 +47,11 @@ a {
 }
 
 .nav a {
-    display: flex;
-    align-items: center;
-    height: 72px;
-
+    display: block;
+    padding: 24px 0;
     color: #2E2F42;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
